@@ -1,0 +1,22 @@
+<!--
+ - Created by joannabak on 8/20/19.
+ -->
+
+<design:component label="Resync Button">
+
+    <design:attribute name="titleText"
+                      label="Component Title"
+                      description="This is the title that will display on the component. If left blank, no title will display."
+    />
+
+    <design:attribute name="successMessage"
+                      label="Success Message Text"
+                      description="This is the text that will display on the toast message when the platform event is sent"
+    />
+
+    <design:attribute name="errorMessage"
+                      label="Error Message Text"
+                      description="This is the text that will display on the toast message if an error occurs"
+    />
+
+</design:component>

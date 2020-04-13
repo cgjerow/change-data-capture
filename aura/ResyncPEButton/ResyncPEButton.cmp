@@ -1,0 +1,15 @@
+<!--
+ - Created by joannabak on 8/20/19.
+ -->
+
+<aura:component description="ResyncPEButton" implements="flexipage:availableForRecordHome, force:hasSObjectName, force:hasRecordId" controller="ResyncPEButton">
+
+    <aura:attribute name="titleText" type="String" default=""/>
+    <aura:attribute name="successMessage" type="String" default="Sync request sent"/>
+    <aura:attribute name="errorMessage" type="String" default="Unable to sync record"/>
+
+    <lightning:card title="{!v.titleText}">
+        <lightning:button class="slds-align_absolute-center" name="Resync Record" label="Resync Record" onclick="{!c.handleResync}" variant="Neutral"/>
+    </lightning:card>
+
+</aura:component>
