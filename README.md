@@ -18,7 +18,7 @@ new FullDataCapture(
             new ChangeDataCaptureType().captureResync()
         ).createEvents();
 ```
-
+Note: SF Apex does not support enums with reserved keywords as values. The ChangeDataCaptureType() class is a common workaround for this Enum limitation.
 
 ### Diff Data Capture
 This event type will capture only the whitelisted fields which have changed. Common use case: After Update events
