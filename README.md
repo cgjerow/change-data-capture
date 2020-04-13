@@ -27,6 +27,7 @@ Example Invocation:
 ```
 new DiffDataCaptureFromIsActive(oldMap, newMap).createEvents();
 ```
+This particular example uses a subclass of the DiffDataCapture super-class which takes into account if a Record is active or not
 
 ### Delete Data Capture
 This event type will capture metadata about the record (including: record Id, deletion datetime, etc.), but does not include any other whitelisted field information. Common use case: ... you get the idea :) 
