@@ -1,8 +1,4 @@
-/**
- * Created by joannabak on 8/22/19.
- */
-
-public with sharing class ResyncPEButton {
+public with sharing class ResyncPEButtonController {
 
     @AuraEnabled
     public static void resyncButtonClick(Id recordId)
